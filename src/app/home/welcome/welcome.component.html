@@ -1,0 +1,28 @@
+<div class="container-fluid">
+<nav class='navbar navbar-expand navbar-light bg-light'>
+    <a class='navbar-brand'>{{pageTitle}}</a>
+    <ul class='nav nav-pills'>
+      <li><a class='nav-link' routerLinkActive='active' [routerLink]="['/welcome']">Home</a></li>
+      <li><a class='nav-link'  routerLinkActive='active' [routerLink]="['/EmployeeList']">Employee Records</a></li>
+      <li><a class='nav-link' routerLinkActive='active' [routerLink]="['/login']">Logout</a></li>
+    </ul>
+  </nav>
+<div class="card" style="width: 50rem;" >
+    <div class="card-header text-center">
+      {{Title}}
+    </div>
+    <div class="card-body">
+      <div class="container-fluid">
+        <div class="text-center">
+          <img src="../assets/img/img-01.png"
+               class="img-responsive center-block"
+               style="max-height:600px;padding-bottom:50px" />
+        </div>
+  
+        <div class="text-center">Developed by:</div>
+        <div class="text-center">
+          <h3>Janki Patel</h3>
+        </div>
+    </div>
+  </div>
+  </div>
